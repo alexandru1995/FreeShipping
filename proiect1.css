@@ -1,0 +1,956 @@
+body {
+    color: aliceblue;
+    font-family: Arial;
+    /*  background: url(Pictures/fondal.jpg) center no-repeat;*/
+    background-attachment: fixed;
+    ;
+}
+
+#buton1 {
+    border-width: 6px 6px 6px 6px;
+    border-style: solid;
+    background-color: chartreuse;
+    width: 160px;
+    height: 90px;
+}
+
+#buton1:hover {
+    border-width: 0px 0px 0px 0px;
+    background: transparent url("Pictures/despren.jpg") no-repeat;
+    float: left;
+    background-position: center;
+}
+
+#buton1 h3 {
+    color: firebrick;
+    font-family: "Impact";
+    display: block;
+}
+
+#buton1:hover h3 {
+    display: none;
+}
+
+#buton2 {
+    border-width: 6px 6px 6px 6px;
+    border-style: solid;
+    background-color: chartreuse;
+    width: 160px;
+    height: 90px;
+}
+
+#buton2:hover {
+    border-width: 0px 0px 0px 0px;
+    background: transparent url("Pictures/inregistrare2.jpg") no-repeat;
+    float: left;
+    background-position: center;
+}
+
+#buton2 h3 {
+    color: firebrick;
+    font-family: "Impact";
+    display: block;
+}
+
+#buton2:hover h3 {
+    display: none;
+}
+
+#buton3 {
+    border-width: 6px 6px 6px 6px;
+    border-style: solid;
+    background-color: chartreuse;
+    width: 160px;
+    height: 90px;
+}
+
+#buton3:hover {
+    border-width: 0px 0px 0px 0px;
+    background: transparent url("Pictures/servicii 1.jpg") no-repeat;
+    float: left;
+    background-position: center;
+}
+
+#buton3 h3 {
+    color: firebrick;
+    font-family: "Impact";
+    display: block;
+}
+
+#buton3:hover h3 {
+    display: none;
+}
+
+#buton4 {
+    border-width: 6px 6px 6px 6px;
+    border-style: solid;
+    background-color: chartreuse;
+    width: 190px;
+    height: 90px;
+}
+
+#buton4:hover {
+    border-width: 0px 0px 0px 0px;
+    background: transparent url("Pictures/asistenta.jpg") no-repeat;
+    float: left;
+    background-position: center;
+}
+
+#buton4 h3 {
+    color: firebrick;
+    font-family: "Impact";
+    display: block;
+}
+
+#buton4:hover h3 {
+    display: none;
+}
+
+#buton5 {
+    border-width: 6px 6px 6px 6px;
+    border-style: solid;
+    background-color: chartreuse;
+    width: 160px;
+    height: 90px;
+}
+
+#buton5:hover {
+    border-width: 0px 0px 0px 0px;
+    background: transparent url("Pictures/contacte1.jpeg") no-repeat;
+    float: left;
+    background-position: center;
+}
+
+#buton5 h3 {
+    color: firebrick;
+    font-family: "Impact";
+    display: block;
+}
+
+#buton5:hover h3 {
+    display: none;
+}
+
+.butoane {
+    float: left;
+}
+
+#Content {
+    background-color: rgba(225, 225, 225, 0.8);
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#Menu {
+    position: relative;
+    top: 250px;
+    width: 900px;
+    left: 50px;
+    margin: 0 auto;
+}
+
+#Menu1 {
+    position: relative;
+    top: 250px;
+    width: 900px;
+    left: 50px;
+    margin: 0 auto;
+}
+
+.containere {
+    float: left;
+    color: darkorange;
+}
+
+#imag {
+    position: relative;
+    top: -60px;
+    left: 140px;
+}
+
+#cont2 {
+    position: relative;
+    left: 430px;
+    top: -220px;
+}
+
+.log {
+    width: 300px;
+    position: relative;
+    top: -370px;
+    left: 930px;
+    color: black;
+}
+
+.in {
+    width: 600px;
+    position: relative;
+    top: -170px;
+    left: 400px;
+    color: black;
+}
+
+#lin {
+    position: absolute;
+    border-width: 2px 2px 2px 2px;
+    top: 340px;
+    width: 1100px;
+    left: 130px;
+    border-color: black;
+}
+
+#de {
+    position: relative;
+    top: -200px;
+    left: 350px;
+    color: black;
+    width: 120px;
+}
+
+#pa {
+    position: relative;
+    top: -330px;
+    left: 625px;
+    color: black;
+    width: 120px;
+}
+
+#cn {
+    position: relative;
+    top: -460px;
+    left: 900px;
+    color: black;
+    width: 120px;
+}
+
+#im {
+    position: relative;
+    top: -200px;
+    left: 350px;
+}
+
+#ima {
+    position: relative;
+    top: -330px;
+    left: 630px;
+}
+
+#ia {
+    position: relative;
+    top: -460px;
+    left: 900px;
+}
+
+#calculator {
+    position: relative;
+    top: -220px;
+    left: 700px;
+    color: black;
+}
+
+#calc {
+    position: relative;
+    top: -250px;
+    left: 450px;
+    width: 500px;
+    color: black;
+}
+
+#ca {
+    position: relative;
+    top: -200px;
+    left: 400px;
+    width: 100px;
+    color: black;
+}
+
+#cal {
+    position: relative;
+    top: -223px;
+    left: 540px;
+    width: 300px;
+    color: black;
+}
+
+#calcu {
+    position: relative;
+    top: -250px;
+    left: 460px;
+    color: black;
+    width: 300px;
+}
+
+form #cal input,
+form #calcul input {
+    margin-left: 10px;
+}
+
+#calcul {
+    position: relative;
+    top: -272px;
+    left: 540px;
+    color: black;
+    width: 300px;
+}
+
+#cal0 {
+    position: relative;
+    top: -200px;
+    color: black;
+    width: 300px;
+    left: 400px;
+}
+
+#cal1 {
+    position: relative;
+    top: -300px;
+    left: 376px;
+    color: black;
+    width: 300px;
+}
+
+#cal2 {
+    position: relative;
+    top: -320px;
+    left: 553px;
+    color: black;
+    width: 300px;
+}
+
+#cal12 {
+    position: relative;
+    top: -345px;
+    left: 372px;
+    color: black;
+    width: 300px;
+}
+
+#cal3 {
+    position: relative;
+    top: -366px;
+    left: 553px;
+    color: black;
+    width: 300px;
+}
+
+#cal4 {
+    position: relative;
+    top: -390px;
+    left: 423px;
+    color: black;
+    width: 300px;
+}
+
+#cal5 {
+    position: relative;
+    top: -412px;
+    left: 553px;
+    color: black;
+    width: 300px;
+}
+
+#but {
+    position: absolute;
+    top: 0px;
+    left: 570px;
+    color: black;
+    width: 300px;
+}
+
+.scris {
+    position: relative;
+    top: -230px;
+    left: 200px;
+    width: 1000px;
+    height: 250px;
+}
+
+.scrisp {
+    position: relative;
+    top: -250px;
+    left: 200px;
+    width: 1000px;
+}
+
+#Mas {
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+#mas1234 {
+    position: relative;
+    top: 50px;
+}
+
+#Nav {
+    position: relative;
+    top: 100px;
+    left: -300px
+}
+
+#Navig {
+    position: relative;
+    top: 150px;
+    left: -280px;
+}
+
+#Ang {
+    position: relative;
+    top: 120px;
+    width: 700px;
+    height: 100px;
+    left: 320px;
+}
+
+#ang {
+    position: relative;
+    top: 220px;
+    left: -600px;
+}
+
+.webdesigntuts-workshop {
+    position: relative;
+    text-align: center;
+    top: -200px;
+    height: 200px;
+    width: -600px;
+}
+
+.webdesigntuts-workshop:before,
+.webdesigntuts-workshop:after {
+    content: '';
+    display: block;
+    height: 1px;
+    left: 50%;
+    margin: 0 0 0 -400px;
+    position: absolute;
+    width: 800px;
+}
+
+.webdesigntuts-workshop:before {
+    background: #444;
+    top: 192px;
+}
+
+.webdesigntuts-workshop form {
+    background: #111;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 1px #272727;
+    display: inline-block;
+    font-size: 0px;
+    margin: 150px auto 0;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.webdesigntuts-workshop input {
+    background: #222;
+    border: 1px solid #444;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 2px 0 #000;
+    color: #888;
+    display: block;
+    float: left;
+    font-family: 'Cabin', helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: 40px;
+    margin: 0;
+    padding: 0 10px;
+    text-shadow: 0 -1px 0 #000;
+    width: 200px;
+}
+
+.ie .webdesigntuts-workshop input {
+    line-height: 40px;
+}
+
+.webdesigntuts-workshop input:focus {
+    -moz-animation: glow 800ms ease-out infinite alternate;
+    border-color: #393;
+    box-shadow: 0 0 5px rgba(0, 255, 0, .2), inset 0 0 5px rgba(0, 255, 0, .1), 0 2px 0 #000;
+    color: #efe;
+    outline: none;
+}
+
+.webdesigntuts-workshop button {
+    background: #222;
+    box-sizing: content-box;
+    border: 1px solid #444;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 2px 0 #000;
+    color: #fff;
+    display: block;
+    float: left;
+    font-family: 'Cabin', helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 80px;
+}
+
+.webdesigntuts-workshop button:hover,
+.webdesigntuts-workshop button:focus {
+    background: #292929;
+    color: #5f5;
+    outline: none;
+}
+
+.webdesigntuts-workshop button:active {
+    box-shadow: 0 1px 0 #000, inset 1px 0 1px #222;
+    top: 1px;
+}
+
+.Cautare {
+    position: absolute;
+    top: 420px;
+    width: 500px;
+    height: 200px;
+  
+    
+}
+
+#AC {
+    position: relative;
+    top: 0 px;
+    left: 510px;
+    width: 400px;
+}
+
+.for {
+    position: absolute;
+    height: -300px;
+    top: 600px;
+}
+
+.ser {
+    position: relative;
+    color: orangered;
+    left: 200px;
+    top: -220px;
+    width: 300px;
+}
+
+#l1 {
+    position: relative;
+    color: black;
+    width: 1100px;
+    top: -220px;
+    left: 120px;
+}
+
+#sp {
+    position: relative;
+    color: darkorange;
+    top: -220px;
+    left: 200px;
+    width: 300px;
+}
+
+#cu {
+    color: brown;
+}
+
+#l2 {
+    position: absolute;
+    color: black;
+    width: 600px;
+    top: 640px;
+    left: 180px;
+    width: 450px;
+}
+
+.container1 {
+    width: 1000px;
+}
+
+#di {
+    color: brown;
+}
+
+#l3 {
+    position: absolute;
+    float: right;
+    color: black;
+    top: 1130px;
+    left: 750px;
+    width: 450px;
+}
+
+#cd {
+    position: relative;
+    color: brown;
+    top: -820px;
+    left: 700px;
+    width: 300px
+}
+
+#l4 {
+    position: absolute;
+    float: right;
+    color: black;
+    top: 640px;
+    left: 750px;
+    width: 450px;
+}
+
+#l5 {
+    position: absolute;
+    float: right;
+    color: black;
+    top: 1000px;
+    left: 180px;
+    width: 450px;
+}
+
+#pr {
+    box-shadow: 0 0 10px rgba(1, 1, 1, .9);
+}
+
+.Cont {
+    position: relative;
+    color: orangered;
+    left: 200px;
+    top: -220px;
+    width: 300px;
+}
+
+.Co {
+    position: relative;
+    color: orangered;
+    left: 200px;
+    top: -220px;
+    width: 300px
+}
+
+#con1 {
+    position: relative;
+    color: black;
+    top: -230px;
+    left: 200px;
+    width: 480px;
+}
+
+#con2 {
+    position: relative;
+    color: black;
+    top: -245px;
+    left: 700px;
+    width: 480px;
+}
+
+#con3 {
+    position: relative;
+    color: black;
+    top: -360px;
+    left: 200px;
+    width: 480px;
+}
+
+#dt {
+    box-shadow: 0 0 10px rgba(1, 1, 1, .9);
+}
+
+#calcul5 {
+    position: relative;
+    color: #00ff00;
+    top: -510px;
+    width: 400px;
+    left: 800px
+}
+
+#exit {
+    position: fixed;
+    left: 1300px;
+    top: 10px;
+}
+
+#logo {
+    position: reletiv;
+    top: 40px;
+    left: -200px;
+}
+
+.buton7 {
+    position: absolute;
+    text-align: center;
+    color: black;
+    left: 700px;
+    top: -0px;
+    width: 70px;
+    height: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    text-decoration: none;
+}
+
+#error3 {
+    color: red;
+}
+
+#error4 {
+    color: #00ff00;
+}
+
+.tabel {
+    width: 1100px;
+    position: absolute;
+    top: 900px;
+    left: -800px;
+}
+
+.tabel {
+    border: 4px double black;
+    /* Рамка вокруг таблицы */
+    border-collapse: collapse;
+    /* Отображать только одинарные линии */
+}
+
+.tabel,
+th {
+    text-align: left;
+    /* Выравнивание по левому краю */
+    background: #ccc;
+    /* Цвет фона ячеек */
+    padding: 5px;
+    /* Поля вокруг содержимого ячеек */
+    border: 3px solid black;
+    /* Граница вокруг ячеек */
+}
+
+.tabel,
+td {
+    background: white;
+    padding: 5px;
+    /* Поля вокруг содержимого ячеек */
+    border: 2px solid black;
+    /* Граница вокруг ячеек */
+}
+
+.peste {
+    position: relative;
+    text-align: center;
+    top: -200px;
+    height: 200px;
+    width: -600px;
+}
+
+.peste:before,
+.peste:after {
+    content: '';
+    display: block;
+    height: 1px;
+    left: 50%;
+    margin: 0 0 0 -400px;
+    position: absolute;
+    width: 800px;
+}
+
+.peste:before {
+    background: #444;
+    top: 192px;
+}
+
+.peste form {
+    background: #111;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 1px #272727;
+    display: inline-block;
+    font-size: 0px;
+    margin: 150px auto 0;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.peste input {
+    background: #222;
+    border: 1px solid #444;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0 2px 0 #000;
+    color: #888;
+    display: block;
+    float: left;
+    font-family: 'Cabin', helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: 40px;
+    margin: 0;
+    padding: 0 10px;
+    text-shadow: 0 -1px 0 #000;
+    width: 200px;
+}
+
+.ie .peste input {
+    line-height: 40px;
+}
+
+.peste input:focus {
+    -moz-animation: glow 800ms ease-out infinite alternate;
+    border-color: #393;
+    box-shadow: 0 0 5px rgba(0, 255, 0, .2), inset 0 0 5px rgba(0, 255, 0, .1), 0 2px 0 #000;
+    color: #efe;
+    outline: none;
+}
+
+.peste button {
+    background: #222;
+    box-sizing: content-box;
+    border: 1px solid #444;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 2px 0 #000;
+    color: #fff;
+    display: block;
+    float: left;
+    font-family: 'Cabin', helvetica, arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 80px;
+}
+
+.peste button:hover,
+.peste button:focus {
+    background: #292929;
+    color: #5f5;
+    outline: none;
+}
+
+.peste button:active {
+    box-shadow: 0 1px 0 #000, inset 1px 0 1px #222;
+    top: 1px;
+}
+
+.peste {
+    position: absolute;
+    top: 600px;
+    left: -400px;
+}
+
+#cap {
+    position: absolute;
+    box-shadow: 0 1px 0 #000, inset 1px 0 1px #222;
+    top: 5px;
+    z-index: 1;
+}
+#ACV{ position: absolute;
+    left:300px;
+    width: 200px;
+}
+#ACD{
+    position:absolute;
+    left:800px;
+}
+#help {
+    position: absolute;
+    left: 840px;
+    top:398px;
+}
+#help1 {
+    position: absolute;
+    left: 670px;
+    top:432px;
+}
+#help2 {
+    position: absolute;
+    left: 670px;
+    top:464px;
+}
+#help3 {
+    position: absolute;
+    left: 690px;
+    top:499px;
+}
+#help4 {
+    position: absolute;
+    left: 730px;
+    top:538px;
+}
+#help5:hover + .ajutor1{
+    display: block;
+} 
+ .ajutor1{
+    position: absolute;
+   top:-70px;
+   left:100px;
+    background-color: #F5F5DC;
+    border-radius:10px;
+    box-shadow: 0 1px 0 #000, inset 1px 0 1px #808080;
+    padding: 20px;
+    display: none;
+    color:black;
+    width:350px;
+    height:auto;
+ }
+ #help6:hover + .ajutor2{
+    display: block;
+} 
+ .ajutor2{
+    position: absolute;
+   top:-20px;
+   left:-400px;
+    background-color: #F5F5DC;
+    border-radius:10px;
+    box-shadow:  1px 0 1px #000, inset  0 1px #808080;
+    padding: 20px;
+    display: none;
+    color:black;
+    width:350px;
+    height:auto;
+ }
+ .ajutor{
+    position: absolute;
+    left: 860px;
+    top:418px;
+    background-color: #F5F5DC;
+    border-radius:10px;
+    box-shadow: 0 1px 0 #000, inset 1px 0 1px #808080;
+    padding: 20px;
+    display: none;
+    color:black;
+    width:350px;
+    height:auto;
+ }
+ span:hover + .ajutor {
+    display: block;
+    
+}
+#cauta11{
+  position:relative;
+  top:250px;
+  left:-400px;
+  width:100px;
+   
+}
+#cauta1{
+  position:relative;
+  top:270px;
+  left:-500px;
+  width:100px;
+   
+}
+#cauta12{
+  position:relative;
+  top:230px;
+  left:-310px;
+  width:100px;
+   
+}
+#cauta13{
+  position:relative;
+  top:210px;
+  left:-200px;
+  width:200px;
+   }
